@@ -1,3 +1,8 @@
+## El dataset Iris contiene 150 muestras de tres especies de flores (Setosa, Versicolor y Virginica) con cuatro características cada una:
+## Longitud del sépalo (cm)
+## Ancho del sépalo (cm)
+## Longitud del pétalo (cm)
+## Ancho del pétalo (cm)
 # Importar librerías necesarias
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
