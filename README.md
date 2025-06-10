@@ -1,7 +1,7 @@
 # Tarea de Redes Neuronales
 **Curso:** Inteligencia Artificial y Mini-Robots  
 **Autor:** David Camilo Guzmán Guerrero  
-**Fecha de Entrega:** Mayo 2025  
+**Fecha de Entrega:** Junio 2025  
 **Repositorio:** [Enlace a GitHub](https://github.com/lmao813/Tarea_RedesNeuronales)  
 
 ## Contenido  
