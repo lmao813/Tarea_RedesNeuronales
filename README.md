@@ -1,21 +1,30 @@
-# Tarea de Redes Neuronales
+# 🧠 Tarea de Redes Neuronales
 **Curso:** Inteligencia Artificial y Mini-Robots  
 **Autor:** David Camilo Guzmán Guerrero  
 **Fecha de Entrega:** Junio 2025  
 **Repositorio:** [Enlace a GitHub](https://github.com/lmao813/Tarea_RedesNeuronales)  
 
-## Contenido  
-- **Ejercicio 1:** Los archivos que acompañan MEP incluyen conjuntos de entrenamiento para varios ejemplos, tome uno de los ejemplos y utilice los datos para realizar la misma tarea por RNAs.  
-**Objetivo:** Implementar una red neuronal artificial para clasificar especies de flores Iris (Setosa, Versicolor, Virginica) basándose en cuatro características morfológicas.  
-**Complejidad:** Nivel básico/intermedio. Arquitectura simple: 1 capa oculta. Procesamiento de datos estructurados.   
-**Relevancia:** Demuestra los fundamentos de redes neuronales para problemas de clasificación. Introduce técnicas esenciales como normalización y one-hot encoding. Base para entender problemas multiclase en machine learning.  
+## 📚 Contenido
 
-- **Ejercicio 2:** Con base en la librería tensorflow, descargue el data set fashion MNIST. Haga una clasificación de prendas de vestir.    
-**Objetivo:** Desarrollar una red convolucional (CNN) para clasificar imágenes de prendas de vestir del dataset Fashion MNIST (10 categorías).  
-**Complejidad:** Nivel intermedio. Procesamiento de imágenes (28x28 píxeles). Arquitectura CNN con capas convolucionales y de pooling.  
-**Relevancia:** Introduce el concepto de redes neuronales para visión por computadora. Demuestra el uso de capas especializadas para datos bidimensionales. Problema típico de benchmark en deep learning.  
+- **🪻 Ejercicio 1:** Clasificación de flores Iris con una red neuronal  
+Se implementó una red neuronal básica de una capa oculta para clasificar tres tipos de flores: Setosa, Versicolor y Virginica, a partir de cuatro características morfológicas.
+  - 🔧 Arquitectura: Red neuronal con una capa oculta
+  - 🔎 Datos: Conjunto Iris (4 features por flor)
+  - 📈 Técnicas usadas: Normalización, codificación one-hot
+  - ✅ Relevancia: Ejemplo clásico de clasificación multiclase. Introduce conceptos fundamentales en redes neuronales artificiales.
 
-- **Ejercicio 3:** Consiga un data set de cualquier tipo, estudie sus características (features) y su rótulo. Diseñe una red neuronal y haga ejemplos con base en los pesos aprendidos.  
-**Objetivo:** Seleccionar y analizar un dataset (ej. Wine), diseñar una red neuronal adaptada a sus características y evaluar su rendimiento.  
-**Complejidad:**  Nivel intermedio/avanzado. Requiere análisis exploratorio de datos. Diseño de arquitectura basado en las características del problema.  
-**Relevancia:** Desarrolla habilidades para adaptar redes neuronales a problemas reales. Enseña el proceso completo desde exploración hasta implementación. Prepara para enfrentar desafíos con datasets no estandarizados.  
+- **👕 Ejercicio 2:** Clasificación de prendas con Fashion MNIST  
+Se diseñó una red neuronal convolucional (CNN) para reconocer prendas de vestir en imágenes grises de 28x28 píxeles, utilizando el dataset Fashion MNIST.
+
+  - 🔧 Arquitectura: CNN con capas convolucionales y de pooling
+  - 🔎 Datos: Imágenes de ropa (10 categorías)
+  - 📈 Técnicas usadas: Preprocesamiento de imágenes, softmax
+  - ✅ Relevancia: Ejercicio estándar en visión por computadora. Introduce el uso de CNNs para clasificación de imágenes.
+
+- **🍷 Ejercicio 3:** Clasificación con dataset personalizado
+Se trabajó con un dataset propio (por ejemplo, vinos), analizando sus características y diseñando una red neuronal adaptada a la tarea de clasificación.
+
+  - 🔧 Arquitectura: Definida con base en el análisis exploratorio del dataset
+  - 🔎 Datos: Variables numéricas, con rótulos (por tipo de vino u otro criterio)
+  - 📈 Técnicas usadas: Análisis exploratorio, diseño personalizado, entrenamiento supervisado
+  - ✅ Relevancia: Refuerza la capacidad para trabajar con datasets no estandarizados. Permite aplicar todo el ciclo de diseño y entrenamiento.
